@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.btns{
+    visibility: visible;
+    /* display: block; */
+}
+.bt{
+    background-color: black;
+    border: none;
+}
+.bt:hover{
+    background-color: #282828;
+}
+.aside-footer .logo{
+    width: 70px;
+}
+.aside-footer{
+    margin-top: 35vh;
+}
+.aside-ul li a, .aside-footer p{
+    color: black !important;
+}
+.nav-item a:hover{
+    background-color: white !important;
+}
+.section1{
+    height: 100vh;
+    width: 100vw;
+    background:  url(https://www.ubereats.com/_static/c413f20400e04805.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40vh;
+    color: black;
+}
+.section1 .email{
+    background-color: white;
+    width: 35%;
+}
+.section1 .email input{
+    width: 83%;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+}
+.section1 form .btn{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.section1 form .btn2:hover{
+    background-color: #282828;
+}
+.section1 .in a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+.section2 .img{
+    width: 100%;
+}
+.section2 a{
+    color: black;
+    text-decoration: none;
+}
+.section2 .underline{
+    text-decoration: underline;
+}
+.section3 .view a{
+    color: black;
+}
+.section3 .view a:hover{
+    color: #a30b0b;
+}
+.map{
+    height: 10%;
+}
+.city-list ul,.options ul{
+    /* text-decoration: none !important; */
+    list-style-type: none;
+    line-height: 40px;
+}
+.city-list ul li a, .options ul li a{
+    color: black;
+    text-decoration: none;
+}
+.city-list ul a:hover{
+    color: rgb(99, 96, 96);
+}
+.options ul a:hover{
+    text-decoration: underline;
+    color: rgb(99, 96, 96);
+}
+.logos{
+    padding-top: 175px;
+}
+.logo{
+    width: 20%;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a:hover{
+    color: rgb(99, 96, 96); 
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 767px) {
+    .btns{
+        visibility: hidden;
+        /* display: none; */
+    }
+    .location{
+        visibility: hidden;
+    }
+    .nv, .section2, .section3, footer{
+        padding: 0px 10px !important;
+    }
+    .section1{
+        padding-top: 100px;
+    }
+    .g-submit{
+        flex-direction: column;
+    }
+    .section1 .email{
+        width: 100% !important;
+    }
+   .deliver button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+   } 
+   .logos{
+    padding-top: 50px;
+    }
+    footer .up{
+        flex-direction: column;
+    }
+    footer .down ul{
+        flex-direction: column; 
+    }
+    .asside{
+        width: 55% !important;
+    }
+}
+@media (max-width:991px) {
+    .asside{
+        width: 40% !important;
+    }
+}

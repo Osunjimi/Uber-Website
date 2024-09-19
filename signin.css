@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.colo{
+    background-color: black;
+}
+.mon{
+    color: black;
+}
+.man{
+    width: 320px;
+    background-color: #EEEEEE;
+}
+.body{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.love{
+    width: 320px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bab{
+   color: rgb(159, 158, 158); 
+}
+.ara{
+    width: 135px;
+    height: 1px;
+background-color: rgb(159, 158, 158);
+}
+.koni{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mok{
+    display: flex;
+    width: 320px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.kan{
+    display: flex;
+    justify-content: center;
+}
+.one{
+    color: rgb(41, 162, 249);
+}
+.anik{
+    color: rgb(110, 107, 107);
+    font-size: 12px;
+}
+.meyo{
+   text-align: center ;
+}
+::placeholder{
+   font-size: 16px !important;
+   padding-left: 10px;
+   font-weight: 400;
+}
+@media (max-width:991px) {
+    .mon{
+        font-size: 45px !important;
+    }
+    .man{
+        width: 600px;
+    }
+    .love{
+        width: 600px;
+    }
+    .ara{
+       width: 270px;
+    }
+    .mok{
+        width: 600px;
+    }
+    .anik{
+        font-size: 25px;
+    }
+    .meyo{
+        padding-top: 120px !important;
+    }
+    .colo{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width:767px) {
+    .mon{
+        font-size: 20px !important;
+    }
+    .man{
+        width: 300px;
+    }
+    .love{
+        width: 300px;
+    }
+    .ara{
+       width: 120px !important;
+    }
+    .mok{
+        width: 300px;
+    }
+    .anik{
+        font-size: 10px;
+    }
+    .meyo{
+        padding-top: 50px !important;
+    }
+    .colo{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
